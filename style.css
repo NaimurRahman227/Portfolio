@@ -1,5 +1,131 @@
-p{
-    color: brown;
-    font-size: larger;
-    font-style: italic;
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 38px;
+}
+
+/*Header and Navigation Styles*/
+.header {
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* Banner */
+.banner {
+    margin: 0px 50px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.banner-subtitle {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* Main Section */
+main {
+    justify-content: center;
+    margin: 130px 230px;
+    text-align: center;
+
+}
+
+/*About Section */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 156px;
+    justify-content: center;
+}
+
+.section-title {
+    justify-content: center;
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.about-tail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tail-title {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 20px;
+}
+
+.tail-description {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
 }
