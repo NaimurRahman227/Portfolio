@@ -30,7 +30,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav li {
@@ -250,7 +250,7 @@ main {
 
 .mail-text {
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-top: 25px;
     border: none;
     padding: 18px 30px;
     width: 461px;
@@ -266,6 +266,7 @@ main {
     margin-bottom: 24px;
     border-radius: 5px;
     font-size: 26px;
+    margin-top: 24px;
 }
 
 a {
